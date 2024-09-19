@@ -1,0 +1,51 @@
+.cureency-div {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* içindeki herşey alt alta gelmiş oldu döviz kuru uygulaması yazısı için */
+    align-items: center;
+    justify-content: flex-start;
+    /* üstten başlatmak için */
+    margin-top: 50px;
+}
+
+.amount {
+    width: 80px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+
+.from-currency-option {
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.to-currency-option {
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.result {
+    width: 80px;
+    height: 25px;
+
+}
+
+.excahnge-button {
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+
+}
